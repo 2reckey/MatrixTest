@@ -13,6 +13,7 @@ public class Main {
                 {4, 1, 2, 3, 1},
                 {1, 1, 2, 3, 4}
         };
+
         long startTime = System.nanoTime();
         double det = TestMatrix.det(matrix);
         long endTime = System.nanoTime();
